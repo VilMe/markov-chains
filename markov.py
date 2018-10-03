@@ -70,6 +70,7 @@ def make_text(chains):
 		words.append(link_value)
 
 		link = (link[1],) + (link_value,)
+		
 	return " ".join(words)
 
 
